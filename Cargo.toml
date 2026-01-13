@@ -1,5 +1,5 @@
 [package]
-name = "devlog"
+name = "devlogr"
 version = "0.1.0"
 edition = "2021"
 description = "A simple progress logger for developers"
