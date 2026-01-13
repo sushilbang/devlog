@@ -1,4 +1,4 @@
-# devlog
+# devlogr
 
 A simple CLI tool to log your development progress. Keep track of what you're working on without leaving your terminal.
 
@@ -13,15 +13,15 @@ cargo install devlogr
 **Add a log entry:**
 
 ```bash
-devlog add "fixed the authentication bug"
-devlog add "learned how async works in Rust"
-devlog add "finally got tests passing"
+devlogr add "fixed the authentication bug"
+devlogr add "learned how async works in Rust"
+devlogr add "finally got tests passing"
 ```
 
 **View all entries:**
 
 ```bash
-devlog list
+devlogr list
 ```
 
 Output:
@@ -34,7 +34,7 @@ Output:
 
 ## How it works
 
-Each time you run `devlog add`, your message is saved with a timestamp to a `.devlog.json` file in your current directory. This means each project gets its own log.
+Each time you run `devlogr add`, your message is saved with a timestamp to a `.devlog.json` file in your current directory. This means each project gets its own log.
 
 The JSON file looks like this:
 
